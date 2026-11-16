@@ -1,10 +1,10 @@
 {
-  "name": "José Javier Román Díaz",
+  "name": "José Javier Román Díaz · Dirección general",
   "short_name": "JJ Román",
   "start_url": "/",
   "display": "browser",
-  "background_color": "#ffffff",
-  "theme_color": "#1d2f45",
+  "background_color": "#F3F4EE",
+  "theme_color": "#3F5F39",
   "icons": [
     {
       "src": "/icon-192.png",

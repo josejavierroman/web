@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://www.josejavierroman.com/</loc>
-    <lastmod>2026-10-31</lastmod>
-    <image:image>
-      <image:loc>https://www.josejavierroman.com/img/jose-javier-roman-diaz.jpg</image:loc>
-    </image:image>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://www.josejavierroman.com/</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://www.josejavierroman.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.josejavierroman.com/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.josejavierroman.com/"/></url>
+<url><loc>https://www.josejavierroman.com/en/</loc><lastmod>2026-11-17</lastmod><xhtml:link rel="alternate" hreflang="es" href="https://www.josejavierroman.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.josejavierroman.com/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.josejavierroman.com/"/></url>
+<url><loc>https://www.josejavierroman.com/aviso-legal.html</loc></url>
 </urlset>
