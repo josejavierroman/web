@@ -39,3 +39,6 @@ header{transition:box-shadow .25s ease,background .25s ease;backdrop-filter:blur
  .portrait figcaption{font-size:.64rem;line-height:1.5}
 }
 @media(hover:none){.has-motion .reveal.is-visible:hover,.area:hover,.scale-item:hover,.portrait:hover:before{transform:none}}
+
+/* Original personal monogram, reused unchanged at a touch-friendly size. */
+.brand{min-height:44px}.brand .monogram{width:44px;height:44px;flex:0 0 44px;border:0;border-radius:8px;background:#fff;overflow:hidden;transition:box-shadow .2s ease}.brand .monogram img{width:100%;height:100%;object-fit:contain}.brand:hover .monogram{background:#fff;transform:none;box-shadow:0 0 0 2px #8fb38666}
