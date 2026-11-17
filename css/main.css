@@ -21,3 +21,21 @@ header{transition:box-shadow .25s ease,background .25s ease;backdrop-filter:blur
 .has-motion .area.reveal.is-visible:hover{transform:translateY(-5px)}.has-motion .scale-item.reveal.is-visible:hover{transform:translateY(-4px)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal,.has-motion .reveal{opacity:1!important;transform:none!important;transition:none!important}*,*:before,*:after{animation:none!important;transition:none!important}.btn:hover,.area:hover,.scale-item:hover,.brand:hover .monogram,.portrait:hover:before{transform:none}.steps li:hover,.education-list li:hover{padding-left:0}}
 @media print{.reading-progress{display:none}.reveal,.has-motion .reveal{opacity:1!important;transform:none!important}.hero:before,.hero:after{display:none}.scale-item{border-color:var(--line)}.timeline:before{background:var(--line)}}
+
+/* Ajustes móviles: áreas explícitas para evitar cruces entre número, empresa y detalle. */
+.counter-value{font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:760px){
+ .has-menu .nav-area{gap:8px}.languages{gap:0}.languages a{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:44px}.has-menu .menu-toggle{min-height:44px}
+ .scale-item{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"company company" "number detail" "label detail";row-gap:0}
+ .scale-item .company{grid-area:company;order:initial;min-width:0;margin:0 0 10px;line-height:1.5}
+ .scale-item b{grid-area:number;order:initial;min-width:0;margin:6px 0 3px;font-size:clamp(2.6rem,8.2vw,3.2rem)}
+ .scale-item>span{grid-area:label;order:initial;min-width:0;margin:0;overflow-wrap:anywhere}
+ .scale-item .scale-detail{grid-area:detail;order:initial;align-self:center;min-width:0;min-height:0;margin:0;padding:0 0 0 14px;border-top:0;border-left:1px solid #8fb38640;overflow-wrap:anywhere}
+}
+@media(max-width:380px){
+ .scale-item{grid-template-columns:minmax(0,1fr);grid-template-areas:"company" "number" "label" "detail";padding:21px 20px}
+ .scale-item b{font-size:3rem;margin-top:7px}
+ .scale-item .scale-detail{align-self:auto;margin-top:15px;padding:13px 0 0;border-left:0;border-top:1px solid #8fb38640;font-size:.84rem}
+ .portrait figcaption{font-size:.64rem;line-height:1.5}
+}
+@media(hover:none){.has-motion .reveal.is-visible:hover,.area:hover,.scale-item:hover,.portrait:hover:before{transform:none}}
